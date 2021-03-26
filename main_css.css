@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/bg.jpg");
+  width: 420px;
+}
+
+.Heading {
+  font-family: helvetica neue, arial;
+  font-size: 1100%;
+  position: absolute;
+  align-items: center;
+  left: 24%;
+  color: white;
+  font-style: italic;
+}
+
+.active {
+  color: aqua;
+  position: absolute;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 250%;
+  top: 65%;
+  left: 25;
+}
+
+.alert {
+  font-family: arial;
+  font-size: 150%;
+  font-weight: 700;
+  color: red;
+  position: absolute;
+  top: 65%;
+  left: 31%;
+}
+
+.computerWord {
+  top: 65%;
+  left: 60%;
+  position: absolute;
+  font-family: arial;
+  color: burlywood;
+  font-weight: bold;
+  font-size: 300%;
+}
+.player1,
+.player2 {
+  font-family: Lato;
+  position: absolute;
+  font-size: 450%;
+  color: brown;
+  font-weight: bolder;
+  top: 30%;
+  text-align: center;
+  float: left;
+}
+
+.player1 {
+  left: 15%;
+  margin-right: 4%;
+}
+
+.player2 {
+  left: 40%;
+  margin-left: 15%;
+}
+
+#score-0,
+#score-1 {
+  font-family: inherit;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 450%;
+  top: 45%;
+  text-align: center;
+  color: chocolate;
+}
+
+#score-0 {
+  left: 30%;
+}
+
+#score-1 {
+  left: 70%;
+}
+
+.hit,
+.pass,
+.new,
+#enter {
+  border: cadetblue;
+  font-size: 200%;
+  position: absolute;
+  color: maroon;
+  float: left;
+  cursor: pointer;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.displayWin {
+  font-family: cursive;
+  position: absolute;
+  color: orange;
+  font-size: 250%;
+  font-weight: bolder;
+  top: 85%;
+  left: 30%;
+}
+
+.new {
+  background-color: steelblue;
+  top: 60%;
+  left: 40%;
+}
+
+.hit {
+  background-color: limegreen;
+  top: 78%;
+  left: 44%;
+  margin-bottom: 1%;
+}
+
+.pass {
+  background-color: red;
+  top: 84%;
+  left: 43%;
+}
+
+#enter {
+  background-color: gray;
+  font-family: cursive;
+  top: 70%;
+  left: 33%;
+  margin-bottom: 1%;
+}

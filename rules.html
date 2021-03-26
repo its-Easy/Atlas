@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas : Rules</title>
+    <style>
+      body {
+        width: 1920px;
+        height: 1080px;
+        background-image: url("bg.jpg");
+      }
+      @media screen and (min-width: 500px) {
+        body {
+          background-image: url("bg.jpg");
+          width: 420px;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        body {
+          background-image: url("img/bg.jpg");
+          width: 720px;
+        }
+      }
+
+      .whiteBox {
+        position: absolute;
+        background-position: center;
+        border: 20px white;
+        background-color: white;
+        padding: 300px 350px;
+        top: 31%;
+        left: 28%;
+      }
+      a:hover {
+        background-color: coral;
+        border-style: none;
+        color: darkgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whiteBox">
+      <h3
+        style="
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 400%;
+          font-weight: 500;
+          color: black;
+          position: absolute;
+          top: 0%;
+          left: 5%;
+        "
+      >
+        Rules :-
+      </h3>
+      <br />
+      <ol
+        type="1"
+        style="
+          position: absolute;
+          left: 0%;
+          top: 20%;
+          font-size: 150%;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        "
+      >
+        <h4>
+          The beginner picks a letter of the Alphabet(say 'A') and names a
+          <b>country</b> that begins with 'A'.
+        </h4>
+        <h4>
+          The next person names another <b>country</b> beginning with last
+          letter of previous country.
+        </h4>
+        <h4>
+          For correct answer <i>+5</i> points and if you pass the chance then
+          <i>-2</i> points. <br />
+          Total Game Points: <i>50</i>
+        </h4>
+      </ol>
+      <a
+        href="index.html"
+        style="
+          position: absolute;
+          top: 80%;
+          padding: 10px;
+          text-align: center;
+          border-style: solid;
+          text-decoration: none;
+          font-size: 350%;
+          width: 20%;
+          border-radius: 30px;
+        "
+        >Ok</a
+      >
+    </div>
+  </body>
+</html>
